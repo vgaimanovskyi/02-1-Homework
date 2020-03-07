@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(59, 63, 69);
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    background-color: rgb(74, 79, 86);
+    color: red;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+}
+form {
+    width: 500px;
+    margin: 0 auto;
+}
+ul li {
+    padding: 10px 0 10px 10px;
+    background-color: rgb(136, 131, 158);
+    
+}
+label {
+    font-size: 24px;
+    color: white; 
+}
+span {
+    font-size: 14px;
+    color: rgb(202, 185, 182);
+    vertical-align: middle;
+}
+ul li:nth-child(2n) {
+    background-color: rgb(122, 117, 147);
+}
+ul li:hover{
+    background-color: rgb(98, 94, 119);
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+}
+ul input:checked + label {
+    text-decoration: line-through;
+}
+* {
+    transition: all .1s ease-in;
+}
