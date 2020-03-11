@@ -15,9 +15,10 @@ form {
     margin: 0 auto;
 }
 ul li {
-    padding: 10px 0 10px 10px;
+    padding: 10px;
     background-color: rgb(136, 131, 158);
-    
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid transparent;
 }
 label {
     font-size: 24px;
